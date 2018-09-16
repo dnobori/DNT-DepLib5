@@ -4,6 +4,10 @@ using System.Text;
 
 namespace Lib5
 {
+    class A
+    {
+    }
+
     public class LibClass5
     {
         public static void Hello()

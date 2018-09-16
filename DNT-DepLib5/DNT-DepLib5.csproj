@@ -5,6 +5,14 @@
     <RootNamespace>DNT_DepLib5</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;TEST1</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;TEST1</DefineConstants>
+  </PropertyGroup>
+
   <Import Project="..\submodules\DNT-DepLib1\DNT-DepLib1\DNT-DepLib1.projitems" Label="Shared" />
 
   <Import Project="..\submodules\DNT-DepLib4\DNT-DepLib4\DNT-DepLib4.projitems" Label="Shared" />
